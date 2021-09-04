@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/af27404549.js" crossorigin="anonymous"></script>
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body>
+<section class="topsec">
+<nav class="navbar navbar-expand-lg navbar-light">
+<div class="container-fluid">
+  <a class="navbar-brand"  href="#"><img src="/images/logo.svg"></a>
+<i class="fas fa-bars d-block  d-lg-none micon"></i>
+  <ul class="navbar-nav me-auto d-none d-lg-flex">
+    <li class="nav-item">
+      <a href="#" class="nav-link">Features</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link">Pricing</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link">Resources</a>
+    </li>
+  </ul>
+  <div class="d-none d-lg-flex">
+    <button class="btn btn-light rounded-pill text-dark">Login</button>
+    <button class="btn btn-info rounded-pill text-white">Signup</button>
+  </div>
+</div>
+</nav>
+<div class="hmenu d-none">
+<ul>
+  <li class="nav-item">
+    <a href="#" class="nav-link text-white">Features</a>
+  </li>
+  <li class="nav-item">
+    <a href="#" class="nav-link text-white">Pricing</a>
+  </li>
+  <li class="nav-item">
+    <a href="#" class="nav-link text-white">Resources</a>
+  </li>
+</ul>
+<div class="d-flex flex-column" style="width: 200px; margin: auto;">
+  <button class="btn rounded-pill text-white">Login</button>
+  <button class="btn btn-info rounded-pill text-white">Signup</button>
+</div>
+</div>
+  <div class="topleft">
+    <span class="display-1">
+      More than just shorter links
+    </span> 
+    <p class="lead mt-2">
+      Build your brand’s recognition and get detailed insights 
+      on how your links are performing.
+    </p>
+    <button class="btn btn-lg text-white rounded-pill btn-info mt-3">
+      Get Started
+    </button>
+  </div>
+</section>
+ <section class="midsec">
+<div class="link-input">
+  <form>
+    <input  type="text" id="short" placeholder="Shorten a link here...">
+    <button class="btn btn-lg text-white btn-info" id="btn-short">
+      Shorten It!
+    </button> 
+  </form>
+  <span class="text-danger warning-text d-none error">Please enter valid url</span>
+</div>
+<section class="section2">
+  <div class="links-display">
+    <template class="linksstock ">
+      <ul>
+      <li class="list">
+        <span class="url">
+        </span>
+        <span class="shorted">
+          <span class="slink"></span>
+          
+          <input type="submit"  value="copy">
+        </span>
+      </li>
+      </ul>
+    </template>
+  </div>
+</section>
+<div class="advanced-stat mt-3">
+  <h1>Advanced Statistics</h1>
+<p class="text-muted mt-4">
+  Track how your links are performing across the web with our 
+  advanced statistics dashboard.
+</p>
+</div>
+<div class="card-stack">
+  <div class="card" id="card1">
+    <div class="card-body">
+<div class="cit">
+</div>
+      <h4 class="card-title">
+        Brand Recognition
+      </h4>
+      <p class="text-muted">
+        Boost your brand recognition with each click. Generic links don’t 
+        mean a thing. Branded links help instil confidence in your content.
+      </p>
+    </div>
+  </div>
+  <div class="card" id="card2">
+    <div class="card-body">
+      <div class="cit2">
+      </div>
+      <h4 class="card-title">
+        Detailed Records
+      </h4>
+      <p class="text-muted">
+        Gain insights into who is clicking your links. Knowing when and where 
+        people engage with your content helps inform better decisions.
+      </p>
+    </div>
+
+    
+  </div>
+  <div class="card" id="card3">
+    <div class="card-body">
+      <div class="cit3">
+      </div>
+      <h4 class="card-title">
+        Fully Customizable
+      </h4>
+      <p class="text-muted">
+        Improve brand awareness and content discoverability through customizable 
+        links, supercharging audience engagement.
+        </p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="bottomsec p-5">
+
+    <h1>
+
+      Boost your links today
+    </h1>
+    
+  <button class="btn btn-lg text-white rounded-pill btn-info">
+    Get Started
+  </button>
+  </section>
+    <section class="footer d-flex justify-content-evenly p-5">
+<div>
+  <img class="text-white mt-5" src="/images/logo.svg">
+</div>
+<ul class="navbar-nav mb-0 mb-md-3">
+<li class="nav-item text-white mb-3">Features</li>
+<li class="nav-item mb-2">Link Shortening</li>
+<li class="nav-item mb-2">Branded Links</li>
+<li class="nav-item mb-2">Analytics</li>
+</ul>
+     <ul class="navbar-nav mb-0 mb-md-3">
+     <li class="nav-item text-white mb-3">Resources</li>
+     <li class="nav-item mb-2">Blog</li>
+     <li class="nav-item mb-2">Developers</li>
+     <li class="nav-item mb-2">Support</li>  
+     </ul>
+      
+     <ul class="navbar-nav mb-0 mb-md-3">
+      <li class="nav-item text-white mb-3">Company</li>
+      <li class="nav-item  mb-1">About</li>
+      <li class="nav-item mb-1">Our Team</li>
+      <li class="nav-item mb-1">Careers</li>  
+      <li class="nav-item mb-1">Contact</li>  
+
+      </ul>
+       <ul class="d-flex social">
+         <li class="nav-link"><img src="/images/icon-facebook.svg"></li>
+         <li class="nav-link"><img src="/images/icon-twitter.svg"></li>
+         <li class="nav-link"><img src="/images/icon-instagram.svg"></li>
+         <li class="nav-link"><img src="/images/icon-pinterest.svg "></li>
+       </ul>
+    </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
